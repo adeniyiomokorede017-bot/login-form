@@ -1,0 +1,203 @@
+.body{
+            background-color:#D1D0D2;
+            margin:0;
+            min-height: 100vh;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .general-div{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .purple-div{
+            display: flex;
+            flex-direction: column;
+            align-items:center ;
+            justify-content: center;
+            background-color:rgb(156, 2, 156);
+             border-top-left-radius: 24px;
+             border-bottom-left-radius:24px;
+            width:330px;
+            height:550px;
+            color:white;
+        }
+        .mofe{
+            margin-top: 35px;
+        }
+        .visual {
+            position: relative;
+            width: 330px;
+            height: 300px;
+        }
+        .sparkle {
+            position: absolute;
+        }
+        .heart {
+            position: absolute;
+            top: 115px;
+            left: 155px;
+            color: white;
+            font-size: 40px;
+        }
+        .sparkle-1 {
+            top: 35px;
+            left: 155px;
+        }
+        .sparkle-2 {
+            top: 105px;
+            left: 245px;
+        }
+        .sparkle-3 {
+            top: 195px;
+            left: 100px;
+        }
+        .sparkle-4 {
+            bottom: 83px;
+            left: 215px;
+        }
+        .sparkle-5 {
+            top: 105px;
+            left: 65px;
+        }
+        .white-div{
+            display:flex;
+            background-color: white;
+            flex-direction: column;
+            padding: 0px 10px;
+             border-top-right-radius: 24px;
+             border-bottom-right-radius:24px;
+            width:330px;
+            height:550px;
+        }
+        .h1{
+            margin-left:30px;
+            margin-bottom:0px ;
+            margin-top: 30px;
+        }
+        .welcome{
+            margin-left:30px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .h3{
+            margin-left:30px;
+            margin-top: 0px;
+            margin-bottom: 6px;
+        }
+        .input{
+            margin-left:30px;
+            padding-left:8px;
+            font-size:18px;
+            margin-top: 0px;
+            margin-bottom: 12px;
+            width:250px;
+            height:25px;
+            border:1px solid rgb(205, 202, 202);
+            border-radius: 4px;
+        }
+        .h4{
+            margin-left:30px;
+            margin-top: 0px;
+            margin-bottom: 6px;
+        }
+        .dot{
+            margin-left:30px;
+            margin-bottom: 20px;
+            width:260px;
+            height:30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+             padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+            border:1px solid rgb(205, 202, 202);
+            border-radius: 4px;
+        }
+        .dot p{
+            margin:0;
+        }
+        .check-div{
+            margin-left:30px;
+            margin-bottom: 20px;
+            width:260px;
+            display:flex;
+            align-items:center;
+            gap:6px;
+        }
+        .check-mark{
+            display: inline;
+            color:white;
+            background-color:rgb(156, 2, 156);
+            border:none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .remember{
+            margin:0;
+            font-weight: 700;
+        }
+        .forgot{
+            margin:0 0 0 auto;
+            
+        }
+        .login{
+            margin-left:30px;
+            width:260px;
+            height:30px;
+            border:none;
+            background-color: rgb(156, 2, 156);
+            border-radius: 5px;
+            color:white;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .login:hover{
+            color:rgb(156, 2, 156);
+            background-color: white;
+            border:2px solid rgb(156, 2, 156);
+        }
+        .or{
+            margin-left:30px;
+        }
+        .eyes{
+            display:flex;
+            justify-content: space-between;
+        }
+        .img-div{
+            margin-left:30px;
+        }
+        .google {
+            width: 260px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color:white;
+            border:1px solid rgb(205, 202, 202);
+            border-radius: 8px;
+        }
+        .google-logo {
+            width: 25px;
+            height: 25px;
+        }
+        .continue {
+            margin: 0;
+            font-size: 13px;
+            font-weight: 700;
+        }
+        .dont{
+            text-align: center;
+        }
+        .sign-up{
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .sign-up:hover{
+            color:rgb(156, 2, 156);
+            font-weight: 700;
+            text-decoration: underline;
+        }
